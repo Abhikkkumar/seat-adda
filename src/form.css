@@ -1,4 +1,4 @@
-.my-form h1 {
+.details h1 {
   color: #fff;
 }
 .form-arrow {
@@ -27,26 +27,56 @@
 }
 
 .my-form {
+  padding: 0;
   width: 100%;
-  background-image: url("./img/bus-banner.c5bd49fe08f36b008b1d.jpg");
+  animation: bg_slider_Desktop 16s ease-in-out infinite;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 90vh;
+}
+@keyframes bg_slider_Desktop {
+  0%,
+  100% {
+    background-image: url("./img/desktop/church-of-the-king-e6ZlCzBnGWI-unsplash.jpg");
+  }
+  25% {
+    background-image: url("./img/desktop/jonathan-borba-LnggkK8864c-unsplash.jpg");
+  }
+  50% {
+    background-image: url("./img/desktop/juan-encalada-6mcVaoGNz1w-unsplash.jpg");
+  }
+  75% {
+    background-image: url("./img/desktop/mario-sessions-0TmYp58QVNQ-unsplash.jpg");
+  }
+}
+.outer{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  min-height: 90vh;
+}
+.details {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 2.5rem;
   z-index: 100;
+  min-height: 75vh;
+}
+
+@media (max-width:768px){
+  .my-form{
+    display: none;
+  }
+  .details,.outer{
+    min-height: 60vh;
+  }
 }
 
 .form-button-container button {
   margin: 4px;
 }
-/* .form-sub-container{
-    display: flex;
-    align-items: center;
-} */
 
 /* to hide arrow sign in select tag */
 .form-select::-ms-expand,

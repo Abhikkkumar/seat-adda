@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
 import logo from "./img/logo-seat-adda.jpg";
-import About from "./About";
 
 export default function Header() {
   const [showToggleItem, setShowToggleItem] = useState(false);

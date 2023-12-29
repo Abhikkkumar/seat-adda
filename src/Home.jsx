@@ -1,7 +1,7 @@
 import React from "react";
 
 import Form from "./Form";
-import Offers from "./Offers";
+
 import Services from "./Services";
 import TextDetail from "./TextDetail";
 import Faqs from "./Faqs";
@@ -10,12 +10,14 @@ import FooterOne from "./FooterOne";
 import FooterTwo from "./FooterTwo";
 import FooterMobile from "./FooterMobile";
 import Chat from "./Chat.jsx";
+import FormMob from "./FormMob";
 
 export default function Home() {
   return (
     <div className="home">
       <Form />
-      <Offers />
+      <FormMob />
+
       <Services />
       <TextDetail />
       <Faqs />
