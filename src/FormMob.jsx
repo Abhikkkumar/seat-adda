@@ -40,7 +40,7 @@ export default function FormMob() {
               Rental
             </button>
           </div>
-          <div className="form-sub-container container">
+          {/* <div className="form-sub-container container">
             {row0 && (
               <div className="row row-0 gx-0 ">
                 <div className="col-md-3 mr-0">
@@ -194,7 +194,7 @@ export default function FormMob() {
                 </button>
               </div>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

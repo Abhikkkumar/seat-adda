@@ -17,7 +17,6 @@ export default function Home() {
     <div className="home">
       <Form />
       <FormMob />
-
       <Services />
       <TextDetail />
       <Faqs />
