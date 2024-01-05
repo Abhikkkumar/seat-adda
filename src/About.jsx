@@ -3,36 +3,33 @@ import "./about.css";
 
 export default function About() {
   return (
-    <div className="my-about container-fluid">
-      <div className=" container mt-4">
-        <h2>About Seat Adda</h2>
-        <p>
-          Welcome to Seat Adda, your go-to platform for hassle-free bus
-          bookings. We strive to provide a seamless and comfortable experience
-          for travelers, ensuring they reach their destinations with ease.
-        </p>
+    <div  className="my-about container-fluid">
+      <div className="int-about mt-3">
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1631515242808-497c3fbd3972?q=80&w=1864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="img"
+          />
+        </div>
+        <div className="about-txt">
+          <h2>About </h2>
+          <p>
+            Welcome to Seat Adda, your go-to platform for hassle-free bus
+            bookings. We strive to provide a seamless and comfortable experience
+            for travelers, ensuring they reach their destinations with ease.
+          </p>
 
-        <h4>Our Mission</h4>
-        <p>
-          At Seat Adda, our mission is to simplify your travel experience. We
-          aim to offer a convenient and reliable bus booking service that caters
-          to your unique needs. Whether you're a frequent traveler or planning a
-          one-time journey, Seat Adda is here for you.
-        </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            commodi aut repellendus, vero maxime quia explicabo! Vel alias ipsam
+            eveniet.
+          </p>
 
-        <h4>Why Choose Seat Adda?</h4>
-        <ul>
-          <li>Easy and Secure Booking Process</li>
-          <li>Wide Range of Bus Options</li>
-          <li>Real-time Updates and Notifications</li>
-          <li>Responsive Customer Support</li>
-          <li>Transparent Pricing</li>
-        </ul>
-
-        <p>
-          Experience the joy of hassle-free travel with Seat Adda. Book your bus
-          tickets today!
-        </p>
+          <p>
+            Experience the joy of hassle-free travel with Seat Adda. Book your
+            bus tickets today!
+          </p>
+        </div>
       </div>
     </div>
   );

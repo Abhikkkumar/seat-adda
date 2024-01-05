@@ -2,14 +2,37 @@
     background-color: #ffffff;
     color: #7d7d85;
   }
+.my-about img{
+  width: 100%;
+}
+.int-about{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.int-about div{
+  width: 45%;
+}
+@media (max-width:786px){
+  .int-about div{
+    width: 90%;
+    /* text-align: center; */
+  }
+  .int-about{
+    gap:10px;
+  }
+}
+
   
-  .my-about .container {
+  /* .my-about .container {
     max-width: 768px;
     margin: 0 auto;
-  }
+  } */
   
   .my-about h2, .my-about h4 {
-    color: brown;
+    color: black;
   }
   
   .my-about ul {

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
 import logo from "./img/logo-seat-adda.jpg";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {
   const [showToggleItem, setShowToggleItem] = useState(false);
@@ -21,7 +22,9 @@ export default function Header() {
         menu
       </span>
       <div className="h-items">
-        <Link to="/about">About</Link>
+      <ScrollLink style={{color: "#85858b"}} to="my-about" smooth={true} duration={500}>
+          About
+        </ScrollLink>
         <Link to="/services">Services</Link>
         <Link to="/contact">Contact</Link>
 
@@ -46,7 +49,9 @@ export default function Header() {
       </div>
       {showToggleItem && (
         <div className="h-toggle-items">
-          <Link to="/about">About</Link>
+          <ScrollLink style={{color: "#fff", cursor:"pointer"}} to="my-about" smooth={true} duration={500}>
+          About
+        </ScrollLink>
           <Link to="/services">Services</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/faq-11">FAQ</Link>
