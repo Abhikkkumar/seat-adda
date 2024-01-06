@@ -19,7 +19,7 @@ export default function FormMob() {
     <div className="my-form-mob container-fluid">
       <div className="outer">
         <div className="details">
-          <h1>Book Bus Tickets</h1>
+          <h1>Delivering Excellence in every Byte</h1>
           <div className="form-button-container mb-4 mb-md-3">
             <button
               type="button"
@@ -28,7 +28,7 @@ export default function FormMob() {
                 showRow0();
               }}
             >
-              Buses
+              Services
             </button>
             <button
               type="button"
@@ -37,7 +37,7 @@ export default function FormMob() {
                 showRow1();
               }}
             >
-              Rental
+              Contact
             </button>
           </div>
           {/* <div className="form-sub-container container">
